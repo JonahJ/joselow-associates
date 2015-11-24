@@ -1,0 +1,74 @@
+body{
+    padding: 0 0;
+    margin: 0 0;
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Roboto Mono',  Arial, serif;
+    font-weight: 400;
+    /*background: orange;*/
+}
+
+#left-container{
+    width: 500px;
+    background: red;
+    margin-left: 2vw;
+    height: 80vh;
+    /*z-index: 100;*/
+}
+
+#left{
+    margin: 5px;
+    background: green;
+    text-align: center;
+}
+
+#title{
+    font-weight: bold;
+}
+#address{
+    text-align: left;
+    line-height: 0.5;
+}
+
+#contact{
+    text-align: left;
+    line-height: 0.3;
+}
+
+.person{
+    padding-bottom: 5px;
+}
+
+
+#svg-container{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+}
+
+#svg-background{
+    position: relative;
+    /*z-index: -1;*/
+    width: 100%;
+    height: 100%;
+}
+
+
+.selection{
+    stroke-width    : 2px;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : transparent;
+}
+
+.drawn{
+    stroke: black;
+    stroke-width    : 1px;
+    stroke-dasharray: 4px;
+    stroke-opacity  : 0.5;
+    fill            : transparent;
+}
